@@ -223,6 +223,7 @@ function checkResult() {
     let i = document.querySelectorAll("i");
     i.forEach((value) => value.classList.add("is-draw"));
     setTimeout(function drawFunc() {
+      text.innerHTML = "Draw!!!";
       popupAlert.classList.add("is-actived");
     }, 2000);
   }
